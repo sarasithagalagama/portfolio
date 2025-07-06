@@ -1,0 +1,17 @@
+/* Custom badge style for tech stack tags */
+.badge {
+  @apply inline-block bg-accent/10 text-accent text-xs font-semibold px-2 py-1 rounded-full border border-accent transition;
+}
+
+/* Contact card style */
+.contact-card {
+  @apply flex items-center gap-3 p-4 bg-surface rounded-lg shadow hover:shadow-lg transition text-light hover:text-accent font-medium border border-accent backdrop-blur;
+  text-decoration: none;
+}
+
+/* Hide scroll-to-top button on small screens */
+@media (max-width: 640px) {
+  #scrollTopBtn {
+    display: none !important;
+  }
+} 
