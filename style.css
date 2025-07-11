@@ -1,4 +1,3 @@
-/* Custom badge style for tech stack tags */
 .badge {
   @apply inline-block bg-accent/10 text-accent text-xs font-semibold px-2 py-1 rounded-full border border-accent transition;
 }
